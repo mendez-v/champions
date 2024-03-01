@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>We are the Champions</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+
+  <link rel="manifest" href="./site.webmanifest">
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <main>
+    <article class="article container rad-05">
+      <header class="article__header">
+        <img src="./assets/image/freddie.webp" alt="Silhouette of the famous singer-songwriter Freddy Mercury.">
+      </header>
+      <div class="article__body">
+        <h1 class="article__title">We are the Champions</h1>
+        <form action="#" class="form" id="form-el" autocomplete="off">
+          <label for="endorsement-txta-el" class="sr-only">hl</label>
+          <textarea name="endorsement" id="endorsement-txta-el" cols="30" rows="5" class="form__input rad-05" placeholder="Write your endorsement here ..."></textarea>
+          <button type="submit" class="btn rad-05" id="publish-btn" disabled>Publish</button>
+        </form>
+        <h2 class="article__subtitle">• Endorsements •</h2>
+        <ul id="endorsements-list-el" class="endorsements-list"></ul>
+      </div>
+    </article>
+  </main>
+
+  <footer class="attribution container">
+    <small>Frontend Career Path by <a href="https://scrimba.com/learn/frontend" class="attribution__cta" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="https://github.com/mendez-v/champions" class="attribution__cta" target="_blank" rel="noreferrer">VIMP</a> 💜</small>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
