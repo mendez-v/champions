@@ -8,7 +8,7 @@ This is my solution to the Solo project: Password Generator of the course [**Fro
 
 + [The challenges](#the-challenges)
 + [Screenshots](#screenshots)
-+ [Links](#screenshots)
++ [Links](#links)
 + [Built with](#built-with)
 + [Useful resources](#useful-resources)
 + [Author](#author)
